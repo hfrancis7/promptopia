@@ -1,31 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Promptopia Tutorial
+  ![License:MIT License](https://img.shields.io/badge/License-MIT-yellow.svg) 
 
-## Getting Started
+  ## Description
+  
+  I needed to learn and practice with REACT using NextJS. Using a [Javascript Mastery](https://www.youtube.com/@javascriptmastery) tutorial, I documented my progress with github.
+  
+  Promptopia is a way to share prompts to be used with AI-generated software. Users can create and share "prompts" with other users. Users are logged in and authenticated using Google and the 'next-auth' package.
+  
+  Not only was this a great way to practice REACT, but it was great exposure NextJS, which is a widely used extension of REACT. It allows the implementation of both frontend and backend elements, using the file system structure for routing, which is extremely convinient.
+  
+  This is purely a demonstration and documentation of learning NextJS through a walkthrough tutorial. The link to the tutorial is [here](https://www.youtube.com/watch?v=wm5gMKuwSYk&t=7728s).
+  
+  
+  ## Table of Contents
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Deployed App](#deployed-app)
+  - [License](#license)
+  - [Technologies Used](#technologies-used)
+  - [Questions](#questions)
+  
+  ## Installation
+  
+  N/A
+  
+  ## Usage
+  
+  - Log in using the "Sign In" button, using Google authentication.
+  - Click on the "Create Post" button to see a post
+  
+  ## Deployed App
+  
+  https://hfrancis7.github.io/Module20Challenge-ReactPortfolio/
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  ## License
+  This project is covered by the following license: <br>
+  [MIT License](https://choosealicense.com/licenses/mit/)
+  
+  ## Technologies Used
+  - [REACT](https://react.dev/)
+  - [NextJS](https://nextjs.org/)
+  - This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+  
+  ## Questions
+  
+  If you have any questions about this project, here's how to contact me:
+  
+  Github: https://github.com/hfrancis7 <br>
+  Email: hfran7@yahoo.com
 
 ## Deploy on Vercel
 
