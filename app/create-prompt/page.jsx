@@ -31,9 +31,9 @@ function CreatePrompt() {
         })
 
         console.log(response);
-        // if(response.ok){
-        //   router.push('/');
-        // }
+        if(response.ok){
+          router.push('/');
+        }
       }catch(err){
         console.log(err);
       }
