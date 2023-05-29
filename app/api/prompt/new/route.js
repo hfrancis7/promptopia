@@ -11,7 +11,7 @@ export const POST = async(req, res) => {
             prompt,
             tag})
         await newPrompt.save();
-        console.log(newPrompt);
+        //console.log(newPrompt);
 
         return new Response(JSON.stringify(newPrompt), {status: 201});
     }catch(err){
