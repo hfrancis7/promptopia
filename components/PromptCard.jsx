@@ -7,6 +7,11 @@ import {usePathname, useRouter} from 'next/navigation';
 
 function PromptCard({post, handleTagClick, handleEdit, handleDelete}) {
   const [copied, setCopied] = useState('');
+
+  const handleCopy = () => {
+    setCopied(post.prompt);
+    navigator.clipboard.writeText(post.prompt);
+  }
   
   return (
     <div className="prompt_card">
@@ -26,7 +31,7 @@ function PromptCard({post, handleTagClick, handleEdit, handleDelete}) {
           </div>
         </div>
 
-        <div className="copy_btn" onClick={() => {}}>
+        <div className="copy_btn" onClick={handleCopy}>
           <Image 
             src={copied === post.prompt
             ? 'assets/icons/tick.svg'
